@@ -1,0 +1,214 @@
+/* Défintion des polices personnalisées*/
+
+@font-face
+{
+    font-family: "BallparkWeiner";
+    src: url("polices/ballpark.eot");
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+    url('polices/ballpark.woff') format('woff'),
+    url('polices/ballpark.ttf') format('truetype'),
+    url('polices/ballpark.svg#BallparkWeiner') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 90%;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+    background: url('images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn 
+  {
+    background-color: red;
+  }
+  
+  .subnav-content 
+  {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+    block-size: auto;
+    opacity: 0.8;
+  }
+
+
+/*
+nav
+{
+    width: 100%;
+    background-color: #424558;
+}
+
+nav ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li
+{
+    list-style-type: none;
+    float: left;
+}
+
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menu-mobile
+{
+    display: table;
+    margin: auto;
+}
+
+.menu-accueil:hover
+{
+    border-top: 5px solid #4c8;
+    background-color: rgba(000, 200, 130, 0.15);
+}
+
+.menu-blog:hover
+{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.menu-cv:hover
+{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+
+nav li:hover a
+{
+    padding: 15px 30px 20px 30px;
+} */
+
+
+
+
