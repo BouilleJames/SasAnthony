@@ -23,7 +23,6 @@ font-style: normal;
     font-weight: normal;
     font-style: normal;
 }
-
 /* Eléments principaux de la page */
 
 body
@@ -31,6 +30,7 @@ body
     background: url('images/fond_jaune.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
+    margin: 5px;
 }
 
 #bloc_page
@@ -50,10 +50,9 @@ section h1, footer h1, nav a
 
 header
 {
-    background: url('images/separateur.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 #titre_principal
@@ -67,7 +66,12 @@ header
 {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
+}
+
+.title 
+{
+    margin-left: 0px;
 }
 
 header h1
@@ -84,6 +88,27 @@ header h2
     font-size: 1.1em;
     margin-top: 0px;
     font-weight: normal;
+}
+
+.banner
+{
+    height: 150px;
+    background-color: rgb(205, 215, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title
+{
+    font-size: 4em;
+    font-family: "arial";
+    background-image: url(image/istockphoto-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: rgb(61, 48, 39);
 }
 
 /* Navigation */
@@ -127,9 +152,9 @@ header h2
   {
     display: none;
     position: absolute;
-    left: 0;
+    left: 10;
     background-color: red;
-    width: 100%;
+    width: auto;
     z-index: 1;
   }
   
@@ -149,65 +174,6 @@ header h2
     block-size: auto;
     opacity: 0.8;
   }
-
-
-/*
-nav
-{
-    width: 100%;
-    background-color: #424558;
-}
-
-nav ul
-{
-    margin: 0px;
-    padding: 0px;
-}
-
-nav li
-{
-    list-style-type: none;
-    float: left;
-}
-
-nav a
-{
-    display: inline-block;
-    text-decoration: none;
-    padding: 0px 30px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-.menu-mobile
-{
-    display: table;
-    margin: auto;
-}
-
-.menu-accueil:hover
-{
-    border-top: 5px solid #4c8;
-    background-color: rgba(000, 200, 130, 0.15);
-}
-
-.menu-blog:hover
-{
-    border-top: 5px solid #f1dc4f;
-    background-color: rgba(241, 211, 79, 0.15);
-}
-
-.menu-cv:hover
-{
-    border-top: 5px solid #0070bb;
-    background-color: rgba(000, 112, 192, 0.15);
-}
-
-nav li:hover a
-{
-    padding: 15px 30px 20px 30px;
-} */
 
 
 
