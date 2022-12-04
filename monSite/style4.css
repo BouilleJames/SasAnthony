@@ -1,0 +1,35 @@
+body
+{
+    width: auto;
+    height: auto;
+    background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    margin: 5px;
+}
+#contenu 
+{
+    background:url(logoPerso.png) no-repeat left top,
+    url(logoPerso.png) no-repeat right top,
+    url(logoPerso.png) no-repeat left bottom,
+    url(logoPerso.png) no-repeat right bottom;
+}
+main
+{
+    width: 100%;
+    margin: auto;
+    
+}
+div h1
+{
+    text-align: center;
+}
+div p
+{
+    text-align: center;
+}
+aside p
+{
+    text-align: center;
+}
+
