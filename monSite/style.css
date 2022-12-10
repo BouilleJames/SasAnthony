@@ -1,181 +1,167 @@
 /* Défintion des polices personnalisées*/
 
-@font-face
-{
-    font-family: "BallparkWeiner";
-    src: url("polices/ballpark.eot");
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+@font-face {
+  font-family: "BallparkWeiner";
+  src: url("polices/ballpark.eot");
+  src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
     url('polices/ballpark.woff') format('woff'),
     url('polices/ballpark.ttf') format('truetype'),
     url('polices/ballpark.svg#BallparkWeiner') format('svg');
-font-weight: normal;
-font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face
-{
-    font-family: 'Dayrom';
-    src: url('polices/dayrom.eot');
-    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+  font-family: 'Dayrom';
+  src: url('polices/dayrom.eot');
+  src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+    url('polices/dayrom.woff') format('woff'),
+    url('polices/dayrom.ttf') format('truetype'),
+    url('polices/dayrom.svg#Dayrom') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 /* Eléments principaux de la page */
 
-body
-{
-    background: url('images/fond_jaune.png');
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    color: #181818;
-    margin: 5px;
+body {
+  background: url('images/fond_jaune.png');
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #181818;
+  margin: 5px;
 }
 
 
-#bloc_page
-{
-    width: 90%;
-    margin: auto;
+#bloc_page {
+  width: 90%;
+  margin: auto;
 }
 
-section h1, footer h1, nav a
-{
-    font-family: Dayrom, serif;
-    font-weight: normal;
-    text-transform: uppercase;
+section h1,
+footer h1,
+nav a {
+  font-family: Dayrom, serif;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 /* Header */
 
-header
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#titre_principal
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#titre_principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#logo
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.title 
-{
-    margin-left: 0px;
+.title {
+  margin-left: 0px;
 }
 
-header h1
-{
-    font-family: 'BallparkWeiner', serif;
-    font-size: 2.5em;
-    font-weight: normal;
-    margin: 0 0 0 10px;
+header h1 {
+  font-family: 'BallparkWeiner', serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 0 0 0 10px;
 }
 
-header h2
-{
-    font-family: Dayrom, serif;
-    font-size: 1.1em;
-    margin-top: 0px;
-    font-weight: normal;
+header h2 {
+  font-family: Dayrom, serif;
+  font-size: 1.1em;
+  margin-top: 0px;
+  font-weight: normal;
 }
 
-.banner
-{
-    height: 150px;
-    background-color: rgb(205, 215, 30);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.banner {
+  height: 150px;
+  background-color: rgb(205, 215, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.banner-title
-{
-    font-size: 4em;
-    font-family: "arial";
-    background-image: url(image/istockphoto-612x612.jpg);
-    background-size: cover;
-    background-position: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    color: rgb(61, 48, 39);
+
+.banner-title {
+  font-size: 4em;
+  font-family: "arial";
+  background-image: url(image/istockphoto-612x612.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: rgb(61, 48, 39);
 }
 
 /* Navigation */
 
 .navbar {
-    overflow: hidden;
-    background-color: #333; 
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .subnav {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .subnav .subnavbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .subnav:hover .subnavbtn 
-  {
-    background-color: red;
-  }
-  
-  .subnav-content 
-  {
-    display: none;
-    position: absolute;
-    left: 10;
-    background-color: red;
-    width: auto;
-    z-index: 1;
-  }
-  
-  .subnav-content a {
-    float: left;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .subnav-content a:hover {
-    background-color: #eee;
-    color: black;
-  }
-  
-  .subnav:hover .subnav-content {
-    display: block;
-    block-size: auto;
-    opacity: 0.8;
-  }
+  overflow: hidden;
+  background-color: #333;
+}
 
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+.subnav {
+  float: left;
+  overflow: hidden;
+}
 
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
 
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 10;
+  background-color: red;
+  width: auto;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+  block-size: auto;
+  opacity: 0.8;
+}

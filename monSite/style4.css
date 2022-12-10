@@ -1,27 +1,26 @@
 body
 {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
-    margin: 5px;
+    margin: 3px;
 }
 
-#contenu 
-{
-    background:url(logoPerso.png) no-repeat left top,
-               url(logoPerso.png) no-repeat right top,
-               url(logoPerso.png) no-repeat left-bottom,
-               url(logoPerso.png) no-repeat right-bottom;
-}
+
 main
 {
     width: 100%;
-    margin: auto;
-    
+    height: 100%;
+    margin: 0;
 }
-div h1
+#boutons
+{
+    text-align: center;
+
+}
+#titre
 {
     text-align: center;
 }
@@ -32,5 +31,15 @@ div p
 aside p
 {
     text-align: center;
+    
 }
+
+#canevas
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
 
