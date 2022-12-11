@@ -1,4 +1,5 @@
-
+//==============================================================================
+//creation variables
 
 
 const btn1 = document.getElementById("btn1");
@@ -13,27 +14,41 @@ btn3.onclick = () => document.body.style.backgroundColor = "green";
 btn4.onclick = () => document.body.style.backgroundColor = "yellow";
 btn5.onclick = () => document.body.style.backgroundColor = "orange";
 
+
 var canevas = document.getElementById('canevas');
 var ctx = canevas.getContext('2d');
 
 ctx.beginPath();
-ctx.ellipse(240, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(230, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(220, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(210, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(200, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(190, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(180, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(170, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(160, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(150, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(140, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(130, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(120, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(110, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(100, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(90, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(80, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(700, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
-ctx.ellipse(60, 75, 50, 75, 0 * Math.PI/180, 0, 2 * Math.PI);
+ctx.ellipse(160, 40, 40, 40, 0.7 * Math.PI/180, 0, 2 * Math.PI);
 ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(175, 35, 7, 7, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(145, 35, 7, 7, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(160, 50, 5, 5, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(160, 62, 20, 4, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(160, 130, 80, 50, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(160, 150, 3, 3, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(160, 130, 3, 3, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.beginPath();
+ctx.ellipse(160, 110, 3, 3, 0.7 * Math.PI/180, 0, 2 * Math.PI);
+ctx.stroke();
+
+
+
+
+
+
+

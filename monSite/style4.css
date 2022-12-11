@@ -8,7 +8,11 @@ body
     margin: 3px;
 }
 
-
+#titre 
+{
+    text-decoration-line: underline;
+    font-size: small;
+}
 main
 {
     width: 100%;
@@ -20,10 +24,7 @@ main
     text-align: center;
 
 }
-#titre
-{
-    text-align: center;
-}
+
 div p
 {
     text-align: center;
