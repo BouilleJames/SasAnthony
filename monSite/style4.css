@@ -24,7 +24,31 @@ main
     text-align: center;
 
 }
-
+#btn1
+{
+    background-color: rgb(0, 110, 255);
+    border-radius: 15px;
+}
+#btn2
+{
+    background-color: violet;
+    border-radius: 15px;
+}
+#btn3
+{
+    background-color: green;
+    border-radius: 15px;
+}
+#btn4
+{
+    background-color: yellow;
+    border-radius: 15px;
+}
+#btn5
+{
+    background-color: orange;
+    border-radius: 15px;
+}
 div p
 {
     text-align: center;
