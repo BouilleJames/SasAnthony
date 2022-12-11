@@ -85,7 +85,7 @@ header h2 {
 
 .banner {
   height: 150px;
-  background-color: rgb(205, 215, 30);
+  background-color: rgb(130, 71, 16);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +100,7 @@ header h2 {
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  color: rgb(61, 48, 39);
+  color: rgb(226, 129, 60);
 }
 
 /* Navigation */
