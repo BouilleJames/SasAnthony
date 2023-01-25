@@ -165,3 +165,99 @@ header h2 {
   block-size: auto;
   opacity: 0.8;
 }
+*
+{
+  padding: 0;
+  
+} 
+footer
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: space-between;
+  background-color: rgb(130, 71, 16);
+
+}
+#mes_photos
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#mes_amis
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul
+{
+  list-style-type: none;
+}
+a
+{
+  color: #010101;
+}
+
+#tweet
+{
+  display: flex;
+  justify-content: space-around;
+  text-decoration-line: underline;
+  
+}
+#btn
+{
+  display: flex;;
+  position: relative;
+  bottom: 20px;
+  background-color: rgb(236, 134, 25);
+  border: 10px solid rgb(130, 71, 16);
+  border-radius: 15px;
+  margin-top: auto;
+  color: #191373;
+  width: 70px;
+}
+.text
+{
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.propos
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fleche_bullet
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.photo_zozor
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text p
+{
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+p
+{
+  text-decoration: none;
+}
